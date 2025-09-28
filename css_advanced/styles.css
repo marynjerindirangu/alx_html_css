@@ -1,7 +1,4 @@
-body{
-    color: #ffffff;
-}
-    header{
+header{
  position: absolute; /* take it out of normal flow */
   top: 0;
   left: 0;
@@ -59,6 +56,7 @@ nav ul li a{
 }
 .span-color{
     color: #C271FF;
+    font-weight: bold;
 }
 .section-1 h2{
 
@@ -77,6 +75,7 @@ nav ul li a{
      padding: 100px 20px;
      align-items: center;
      justify-content: center;
+     color: #ffffff;
 }
 .section-2-image{
     width: 100px;
@@ -91,4 +90,23 @@ padding-bottom: 0;
 .section-2-p{
     padding-left: 40px;
     margin-top: 0;
+}
+.section-3{
+    padding: 0 80px;
+}
+.section-3 h2{
+    text-align: center;
+    padding: 40px ;
+}
+.section-3 h4{
+    font-size: x-small;
+    color: #C271FF;
+}
+.section-3-videos{
+    display: flex;
+    justify-content: space-around;
+}
+.section-3-same-image{
+    width: 30px;
+    height: 30px;
 }
