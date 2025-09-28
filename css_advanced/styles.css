@@ -135,3 +135,21 @@ padding-bottom: 0;
   font-size: 1rem;
   margin-top: 50px;
 }
+.section-5{
+    padding: 0 50px;
+}
+.section-5 h2{
+    text-align: center;
+    
+}
+.section-5 h3{
+    color: #071629;
+}
+.section-5-text{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.text-5{
+    color: #1c3c65fc;
+}
