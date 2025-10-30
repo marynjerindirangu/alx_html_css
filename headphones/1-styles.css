@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+.header{
+  background-image: url('/images/headphones_hero_1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  padding: 50px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin:10px;
+    padding-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:active{
+    color:#FF6565 ;
+}
+a:hover{
+    color: #FF6565;
+}
+
+/*humber menu */
+nav input[type='checkbox'], nav label {
+    display: none;
+}
+/* humburger for small screen*/
+@media (max-width:671px) {
+   nav{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+   }
+   nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    nav label{
+    text-align: right;
+    display: block;
+    padding: 0.5em;
+    line-height: 1.6em;
+    align-self: center;
+    }
+    input[type='checkbox']:not(:checked)+ul {
+    display: block;
+}
+}
+.header-text1{
+    text-align: center;
+    margin-top: 200px;
+    line-height: 0.5cm;
+}
+.p-large{
+   font-size: larger;
+   font-weight: bolder;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p-small{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header-button{
+    text-align: center;
+}
+button{
+    background-color: #FF6565;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 30px;
+}
+button:hover, button:active{
+  opacity: 0.9;
+}
+.header-text2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.p-normal{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* section 1 ""what we do" */
+.section1{
+    text-align: center;
+    padding: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+h2{
+    
+}
+.p-section1{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+}
