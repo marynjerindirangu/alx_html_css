@@ -14,8 +14,7 @@
 .nav{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-arond;
+    justify-content: space-around;
 }
 li{
     display: inline-block;
@@ -38,7 +37,7 @@ a:hover{
 nav input[type='checkbox'], nav label {
     display: none;
 }
-/* humburger for small screen*/
+                  /* humburger for small screen*/
 @media (max-width:671px) {
    nav{
     flex-direction: row;
@@ -99,7 +98,7 @@ button:hover, button:active{
     margin: 0 auto;
 }
 
-             /* section 1 ""what we do" */
+              /* section 1 ""what we do" */
 .section1{
     text-align: center;
     padding: 100px;
@@ -107,7 +106,6 @@ button:hover, button:active{
     margin: 0 auto;
 
 }
-
 .p-section1{
     max-width: 600px;
     margin: 0 auto;
@@ -121,8 +119,49 @@ button:hover, button:active{
     gap: 10px;
 }
 
+      /* section 2 "our results" */
+.results{
+  background-image: url('/images/headphones_hero_2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  padding: 50px; 
+  text-align: center;
+}
+.p-section2{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.pentagone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.pentagones{
+padding-bottom: 50px;
+}
+.pentagone img{
+    width: 170px;
+    height: 170px;
+    
+}
+.pentagones-text{
+   margin-top: -110px;
+}
+.pentagones-text > :first-child{
+    font-weight: bold;
+    font-size: xx-large;
+    padding-bottom: 15px;
+
+}
 @media (min-width: 481px) and (max-width: 767px){
-    .about div{
+    .pentagones{
         flex: 1 0 calc(50%-20px)
     }
+
 }
