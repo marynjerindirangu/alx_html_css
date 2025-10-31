@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+.header{
+  background-image: url('/images/headphones_hero_1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  padding: 50px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin:10px;
+    padding-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:active{
+    color:#FF6565 ;
+}
+a:hover{
+    color: #FF6565;
+}
+
+/*humber menu */
+nav input[type='checkbox'], nav label {
+    display: none;
+}
+                  /* humburger for small screen*/
+@media (max-width:671px) {
+   nav{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+   }
+   nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    nav label{
+    text-align: right;
+    display: block;
+    padding: 0.5em;
+    line-height: 1.6em;
+    align-self: center;
+    }
+    input[type='checkbox']:not(:checked)+ul {
+    display: block;
+}
+}
+.header-text1{
+    text-align: center;
+    margin-top: 200px;
+    line-height: 0.5cm;
+}
+.p-large{
+   font-size: larger;
+   font-weight: bolder;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p-small{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header-button{
+    text-align: center;
+}
+button{
+    background-color: #FF6565;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+ 
+  
+ 
+}
+button:hover, button:active{
+  opacity: 0.9;
+}
+.header-text2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.p-normal{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+              /* section 1 ""what we do" */
+.section1{
+    text-align: center;
+    padding: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.p-section1{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+}
+
+      /* section 2 "our results" */
+.results{
+  background-image: url('/images/headphones_hero_2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  padding: 50px; 
+  text-align: center;
+}
+.p-section2{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.pentagone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.pentagones{
+padding-bottom: 50px;
+}
+.pentagone img{
+    width: 170px;
+    height: 170px;
+    
+}
+.pentagones-text{
+   margin-top: -110px;
+}
+.pentagones-text > :first-child{
+    font-weight: bold;
+    font-size: xx-large;
+    padding-bottom: 15px;
+
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .pentagones{
+        flex: 1 0 calc(50%-20px)
+    }
+
+}
+
+        /*  section 3 "contact us    */
+.section3 h2{
+   text-align: center;
+   padding-top: 40px;
+}
+form{
+    width: 200px;
+   margin: 0 auto;
+   padding: 50px;
+    
+}
+label{
+    color: rgb(50, 46, 46)
+
+}
+input[type="text"],
+input[type="email"]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: rgb(166, 181, 197);
+    margin-bottom: 3px;
+    
+
+
+}
+.button{
+  background-color:#FF6565;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 40px;
+  margin-left: 50px;
+}
+                        /*footer*/
+footer{
+    background-color: #190729;
+    padding: 40px;
+}
+.footer img{
+    height: 50px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin:5px;
+  background-color: #ffffff;
+  color: #190729;
+  border-radius: 15px;
+}
+.p-footer{
+    color: #dacdcd;
+    text-align: center;
+    margin-top: 20px;
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
