@@ -82,9 +82,16 @@ button{
     color: #ffffff;
     border: none;
     cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 8px;
+    padding: 10px 25px;
+    border-radius: 20px;
     margin: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+ 
+  
+ 
 }
 button:hover, button:active{
   opacity: 0.9;
@@ -166,4 +173,44 @@ padding-bottom: 50px;
 
 }
 
-        
+        /*  section 3 "contact us    */
+.section3 h2{
+   text-align: center;
+   padding-top: 40px;
+}
+form{
+    width: 200px;
+   margin: 0 auto;
+   padding: 50px;
+    
+}
+label{
+    color: rgb(50, 46, 46)
+
+}
+input[type="text"],
+input[type="email"]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: rgb(166, 181, 197);
+    margin-bottom: 3px;
+    
+
+
+}
+.button{
+  background-color:#FF6565;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 40px;
+  margin-left: 50px;
+}
